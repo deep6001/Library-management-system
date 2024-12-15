@@ -1,0 +1,72 @@
+/* IntroPage.css */
+
+.intro-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: #f0f4f8; /* Light background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+p {
+    font-size: 1.2rem; /* Font size for instructions */
+    margin-bottom: 15px; /* Space below the paragraph */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding around the button */
+    font-size: 1rem; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.admin-login {
+    margin-top: 30px; /* Space above admin login section */
+    padding: 20px; /* Padding around the admin login */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners for admin login box */
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.admin-login h2 {
+    font-size: 1.5rem; /* Font size for admin login heading */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.admin-login input {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space above and below inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+.admin-login button {
+    width: 100%; /* Full width for the login button */
+}
